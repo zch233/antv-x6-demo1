@@ -1,0 +1,26 @@
+{
+  "name": "ant-x6ndefined",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/x6": "^2.11.5",
+    "@antv/x6-plugin-selection": "^2.1.7",
+    "@antv/x6-vue-shape": "^2.1.1",
+    "ant-design-vue": "^4.0.0",
+    "insert-css": "^2.0.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.0",
+    "vue-tsc": "^1.8.3"
+  }
+}
